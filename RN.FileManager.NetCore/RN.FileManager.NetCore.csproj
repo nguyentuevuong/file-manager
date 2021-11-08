@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="data\font-awesome.min.css" />
+    <None Remove="data\fontawesome-webfont.ttf" />
+    <None Remove="data\index.html" />
+    <None Remove="data\main.js" />
+    <None Remove="data\material.css" />
+    <None Remove="data\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="data\font-awesome.min.css" />
+    <EmbeddedResource Include="data\fontawesome-webfont.ttf" />
+    <EmbeddedResource Include="data\index.html" />
+    <EmbeddedResource Include="data\main.js" />
+    <EmbeddedResource Include="data\material.css" />
+    <EmbeddedResource Include="data\style.css" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+C:\Users\vungt\documents\visual studio 2017\Projects\RN.FileManagers\Rx.Filemanagers\bin\Debug\Rx.Filemanagers.dll
+C:\Users\vungt\documents\visual studio 2017\Projects\RN.FileManagers\Rx.Filemanagers\bin\Debug\Rx.Filemanagers.pdb
+C:\Users\vungt\documents\visual studio 2017\Projects\RN.FileManagers\Rx.Filemanagers\obj\Debug\Rx.Filemanagers.csprojResolveAssemblyReference.cache
+C:\Users\vungt\documents\visual studio 2017\Projects\RN.FileManagers\Rx.Filemanagers\obj\Debug\Rx.Filemanagers.dll
+C:\Users\vungt\documents\visual studio 2017\Projects\RN.FileManagers\Rx.Filemanagers\obj\Debug\Rx.Filemanagers.pdb

@@ -1,0 +1,50 @@
+﻿<html>
+<head>
+    <title>RN.File managers</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style id="rnstyle"></style>
+    <link rel="stylesheet" href="?mode=eec34d804c" async />
+    <link rel="stylesheet" href="?mode=62c13d641a" async />
+    <link rel="stylesheet" href="?mode=a71f19ae8e" async />
+    <script type="text/javascript" src="?mode=7a9076d6de" lazyload></script>
+    <script type="text/javascript">__RNSCRIPT__</script>
+</head>
+
+<body>
+    <div id="uploadzone" class="container-fluid mdb-skin">
+        <nav class="navbar navbar-dark bg-primary fixed-top">
+            <div class="navbar-brand">
+                <ol id="breadcrumb" class="header-breadcrumb breadcrumb"></ol>
+            </div>
+        </nav>
+        <div class="container-files clearfix" id="filezone">
+        </div>
+        <div class="fixed-action-btn" style="bottom: 24px; right: 24px;">
+            <a class="btn-floating btn-large blue" title="Mở các tùy chọn">
+                <i class="fa fa-th-large"></i>
+            </a>
+            <a id="btnadd2App" class="btn-floating btn-large blue" title="Chèn tập tin được chọn vào trình soạn thảo!">
+                <i class="fa fa-download"></i>
+            </a>
+            <ul>
+                <li id="floatbtnupload">
+                    <a id="btnupload" class="btn-floating btn-transform purple" style="opacity: 0.3" title="Tải lên các tập tin được chọn!"><i class="fa fa-upload"></i></a>
+                </li>
+                <li>
+                    <a id="btndelete" class="btn-floating btn-transform red" style="opacity: 0.3" title="Xóa các tập tin được chọn"><i class="fa fa-trash"></i></a>
+                </li>
+                <li>
+                    <a id="btnaddfolder" class="btn-floating btn-transform orange" style="opacity: 1" title="Thêm mới một thư mục"><i class="fa fa-plus"></i></a>
+                </li>
+                <li>
+                    <a id="btnopen" class="btn-floating btn-transform grean" style="opacity: 1;" title="Chọn các tập tin được tải lên (có thể kéo thả)"><i class="fa fa-folder-open"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="toast-container" class="toast-top-right"></div>
+    <input type="file" id="uploadinput" multiple="multiple" accept="image/*" />
+</body>
+</html>

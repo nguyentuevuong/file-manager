@@ -1,0 +1,151 @@
+body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.navbar {
+    padding: 0 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
+    padding-left: 10px;
+}
+
+    .navbar .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar .breadcrumb {
+        color: #fff;
+        padding: 0;
+        line-height: 36px;
+    }
+
+        .navbar .breadcrumb .breadcrumb-item:first-child {
+            font-weight: bold;
+        }
+
+    .navbar form {
+        margin: 0;
+    }
+
+        .navbar form .form-control {
+            min-width: 300px;
+        }
+
+            .navbar form .form-control .input-group-btn {
+                right: 0 !important;
+                position: absolute !important;
+            }
+
+                .navbar form .form-control .input-group-btn .btn {
+                    box-shadow: none !important;
+                    background-color: transparent !important;
+                }
+
+.modal.show {
+    display: block;
+}
+
+.fixed-action-btn li:not(:last-child),
+.fixed-action-btn > a:not(:first-child) {
+    display: none;
+}
+
+    .fixed-action-btn li:not(:last-child) i.fa {
+        transform: scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0px);
+        opacity: 0;
+    }
+
+.fixed-action-btn:hover li,
+.fixed-action-btn:hover > a:not(:first-child) {
+    display: block;
+}
+
+.fixed-action-btn:hover > a:first-child {
+    display: none;
+}
+
+.fixed-action-btn:hover li:not(:first-child) i.fa {
+    transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px);
+    opacity: 1;
+}
+
+.container-files {
+    margin-top: 17px;
+}
+
+nav.fixed-top + .container-files {
+    margin-top: 50px;
+}
+
+#uploadzone {
+    width: 100%;
+    height: 100%;
+}
+
+.container-files .card {
+    padding: 5px;
+    position: relative;
+    min-width: 190px;
+    margin-bottom: 15px;
+    float: left;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+    .container-files .card:hover,
+    .container-files .card.checked {
+        border: 1px solid rgba(0, 148, 255, 0.49);
+        background-color: rgba(0, 148, 255, 0.25);
+    }
+
+    .container-files .card .card-block {
+        padding: 10px 5px 0 5px;
+    }
+
+        .container-files .card .card-block .card-title {
+            margin: 0;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 15px;
+            display: block;
+        }
+
+    .container-files .card img {
+        width: 160px;
+        max-width: initial;
+        height: 160px;
+        max-height: initial;
+        margin: auto;
+    }
+
+    .container-files .card .form-group {
+        top: 5px;
+        left: 5px;
+        position: absolute;
+        display: none;
+    }
+
+    .container-files .card .fa.fa-upload {
+        bottom: 5px;
+        right: 5px;
+        cursor: pointer;
+        position: absolute;
+        color: rgba(0, 133, 239, 0.4)
+    }
+
+    .container-files .card:hover .form-group,
+    .container-files .card.checked .form-group {
+        display: block;
+    }
+
+#uploadinput {
+    display: none;
+}

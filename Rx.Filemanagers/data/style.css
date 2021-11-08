@@ -1,0 +1,60 @@
+﻿.container-files .card {
+    padding: 5px;
+    position: relative;
+    min-width: 190px;
+    margin-bottom: 15px;
+    float: left;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+    .container-files .card:hover,
+    .container-files .card.checked {
+        border: 1px solid rgba(0, 148, 255, 0.49);
+        background-color: rgba(0, 148, 255, 0.25);
+    }
+
+    .container-files .card .card-block {
+        padding: 10px 5px 0 5px;
+    }
+
+        .container-files .card .card-block .card-title {
+            margin: 0;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 20px;
+            display: block;
+        }
+
+    .container-files .card img {
+        width: 160px;
+        max-width: initial;
+        height: 160px;
+        max-height: initial;
+        margin: auto;
+    }
+
+    .container-files .card .form-group {
+        top: 5px;
+        left: 5px;
+        position: absolute;
+        display: none;
+    }
+
+    .container-files .card .fa.fa-upload {
+        bottom: 5px;
+        right: 5px;
+        cursor: pointer;
+        position: absolute;
+        color: rgba(0, 133, 239, 0.4)
+    }
+
+    .container-files .card:hover .form-group,
+    .container-files .card.checked .form-group {
+        display: block;
+    }
+
+input[type=file] {
+    display: none;
+}
